@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Restaurant Menu</title>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #fffaf3; }
+    h1 { text-align: center; }
+    nav { display: flex; gap: 10px; justify-content: center; position: sticky; top: 0; background: #fffaf3; padding: 10px 0; }
+    nav a { padding: 8px 18px; background: #e67e22; color: white; text-decoration: none; border-radius: 20px; }
+    h2 { border-bottom: 2px solid #e67e22; padding-bottom: 4px; margin-top: 30px; }
+    h3 { color: #e67e22; margin-bottom: 0; }
+    .item { display: flex; justify-content: space-between; margin: 12px 0; }
+    .item p { margin: 2px 0; color: #666; font-size: 14px; }
+    .price { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>My Restaurant</h1>
+
+  <nav>
+    <a href="#food">Food</a>
+    <a href="#drinks">Drinks</a>
+  </nav>
+
+  <h2 id="food">Food</h2>
+
+  <h3>Rice & Noodles</h3>
+  <div class="item">
+    <div><strong>Fried Rice</strong><p>Egg, vegetables, chicken</p></div>
+    <span class="price">$3.50</span>
+  </div>
+  <div class="item">
+    <div><strong>Beef Lok Lak</strong><p>Served with rice and salad</p></div>
+    <span class="price">$5.00</span>
+  </div>
+
+  <h3>Snacks</h3>
+  <div class="item">
+    <div><strong>Spring Rolls</strong><p>4 pieces with sweet chili sauce</p></div>
+    <span class="price">$2.50</span>
+  </div>
+
+  <h2 id="drinks">Drinks</h2>
+
+  <h3>Coffee & Tea</h3>
+  <div class="item">
+    <div><strong>Iced Coffee</strong></div>
+    <span class="price">$1.50</span>
+  </div>
+  <div class="item">
+    <div><strong>Hot Tea</strong></div>
+    <span class="price">$1.00</span>
+  </div>
+
+  <h3>Cold Drinks</h3>
+  <div class="item">
+    <div><strong>Fresh Orange Juice</strong></div>
+    <span class="price">$2.00</span>
+  </div>
+  <div class="item">
+    <div><strong>Coconut Water</strong></div>
+    <span class="price">$1.50</span>
+  </div>
+</body>
+</html>
